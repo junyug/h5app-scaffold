@@ -1,0 +1,30 @@
+{
+  "name": "app-tomycar",
+  "version": "0.0.1",
+  "authors": [
+    "junyug <junyu010988@gmail.com>"
+  ],
+  "description": "拓米汽车服务",
+  "main": "main.html",
+  "keywords": [
+    "拓米汽车服务"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4",
+    "js-md5": "md5#~0.3.0",
+    "json2": "*",
+    "mustache.js": "mustache#~2.2.0",
+    "normalize-css": "normalize.css#~3.0.3",
+    "seajs": "~3.0.0",
+    "underscore": "~1.8.3"
+  }
+}

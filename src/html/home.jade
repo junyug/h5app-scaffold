@@ -1,0 +1,21 @@
+extends ./include/header.jade
+block title
+  title 上门服务
+block link
+  link(href="/weixin-static/static/dist/css/home.css", rel="stylesheet")
+block content
+  div.container
+    div#success.welcome
+      section.success
+      h2.text-center 支付成功
+      button(type="button",class="btn-close") 确定
+    div#orderForm
+    div#formConfirm
+    div#cardList
+    footer.footer-logo
+block script
+  script(type="text/javascript").
+    seajs.use(['home/home'], function(Task) {
+      Task.init();
+    });
+
