@@ -1,7 +1,7 @@
 {
-  "name": "web-app-build",
-  "version": "0.1.0",
-  "description": "web app static build",
+  "name": "h5app-scaffold",
+  "version": "0.0.1",
+  "description": "web/h5app static build",
   "maintainers": [
     {
       "name": "junyug",
